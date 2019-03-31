@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.mavenit.selenium.training.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 89.472 sec <<< FAILURE!
+Then the product should be in the basket(Scenario: add product to basket)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: a collection containing "Puma Deck II Backpack - Black"
+     but: 
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.mavenit.selenium.training.step_def.BasketSteps.theProductShouldBeInTheBasket(BasketSteps.java:35)
+	at ?.Then the product should be in the basket(basket.feature:13)
+
+Scenario: add product to basket  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: a collection containing "Puma Deck II Backpack - Black"
+     but: 
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.mavenit.selenium.training.step_def.BasketSteps.theProductShouldBeInTheBasket(BasketSteps.java:35)
+	at ?.Then the product should be in the basket(basket.feature:13)
+
